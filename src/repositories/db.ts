@@ -20,7 +20,7 @@ const client = new MongoClient(mongoUri, {
     }
 });
 
-const db = client.db('meatMarket')
+const db = client.db('mmm')
 export const clientCollection = db.collection<ClientType>('clients')
 export const usersCollection = db.collection<UserType>('users')
 export const refreshTokenCollection = db.collection<UserRefreshToken>('refreshToken')

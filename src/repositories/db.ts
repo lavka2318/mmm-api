@@ -9,7 +9,7 @@ import {InvoiceTypeRes} from "../services/invoices-service";
 
 const password = process.env.DB_PASSWORD
 const login = process.env.DB_LOGIN
- const mongoUri = `mongodb://mmm:aEwtFso233ds@localhost:27017/mmm?authSource=admin` || "mongodb://0.0.0.0:27037"
+ const mongoUri = `mongodb://mmm:aEwtFso233ds@localhost:27017/mmm?authSource=mmm` || "mongodb://0.0.0.0:27037"
 //const mongoUri = "mongodb://0.0.0.0:27017"
 
 const client = new MongoClient(mongoUri, {
